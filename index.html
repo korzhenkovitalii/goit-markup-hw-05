@@ -55,7 +55,15 @@
       <!-- Блок герой -->
       <section class="hero overlay">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="button" type="button">Заказать услугу</button>
+        <button class="button" type="button" data-modal-open>Заказать услугу</button>
+
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button type="button" class="modal-btn" data-modal-close>
+              <img src="./images/baground/close-modal.png" alt="close" />
+            </button>
+          </div>
+        </div>
       </section>
       <!-- Преимущества -->
       <section class="features">
@@ -120,7 +128,7 @@
             </li>
             <li class="work-item">
               <img src="./images/work2.jpg" alt="Мобильный телефон в руке" width="370" />
-               <div class="work-label"><p>Мобильные приложения</p></div>
+              <div class="work-label"><p>Мобильные приложения</p></div>
             </li>
             <li class="work-item">
               <img src="./images/work3.jpg" alt="Планшет в руке" width="370" />
@@ -389,5 +397,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
