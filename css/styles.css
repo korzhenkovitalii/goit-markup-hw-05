@@ -239,6 +239,7 @@ h4 {
   display: block;
   min-width: 528px;
   min-height: 531px;
+  border-radius: 4px;
   background-color: #fff;
 
   position: absolute;
